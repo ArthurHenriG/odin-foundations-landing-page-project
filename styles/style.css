@@ -88,10 +88,46 @@ main div{
     padding: 3rem;
 }
 
-.box{
+.placeholder{
     display: flex;
     justify-content:center ;
     align-items: center;
     background-color: gray;
     color: #E5E7EB;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #F9FAF8;
+}
+
+.title{
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    color:gray;
+}
+
+.card{
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    height: 210px;
+    width: 210px;
+    margin-bottom: 1rem;
+}
+
+.box p{
+    max-width: 210px;
+    text-align: center;
 }
