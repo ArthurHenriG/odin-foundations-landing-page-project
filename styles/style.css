@@ -10,11 +10,6 @@ body{
     min-height: 100vh;
 }
 
-main{
-    flex: 1;
-}
-
-
 header,footer,.desc{
     background-color: #1F2937;
 }
@@ -22,6 +17,7 @@ header,footer,.desc{
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     color:#F9FAF8 ;
 }
@@ -36,8 +32,66 @@ h2{
 
 .links{
     display: flex;
+    justify-content: center;
     gap: 1rem;
     color: #E5E7EB;
 }
 
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
+main div{
+    flex: 1;
+}
+
+.desc{
+    display: flex;
+    padding: 1rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    max-width: 400px;
+}
+
+.sec-text{
+    font-size:18px;
+    color: #E5E7EB;
+    max-width: 470px;
+}
+
+.left button{
+    width: 200px;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    padding: .7rem;
+    align-self: start;
+}
+
+.right{
+    display: flex;
+    padding: 3rem;
+}
+
+.box{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: gray;
+    color: #E5E7EB;
+}
